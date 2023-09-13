@@ -1,0 +1,65 @@
+{
+  "GE001": {
+    "code": "401",
+    "status": 401,
+    "success": false,
+    "title": "Invalid JWT Token",
+    "detail": "The JWT token used in the request cannot be verfied. Please fix that and try again with a proper token",
+    "docURL": "",
+    "traceID": ""
+  },
+  "GE002": {
+    "code": "400",
+    "status": 400,
+    "success": false,
+    "title": "invalid-auth-header",
+    "detail": "The authorisation header in the request seems invalid. It�s likely that the authorization header, or the bearer, or the JWT token is missing",
+    "docURL": "",
+    "traceID": ""
+  },
+  "GE003": {
+    "code": "401",
+    "status": 400,
+    "success": false,
+    "title": "signature-verification-failed",
+    "detail": "The signature used in the request cannot be verfied. Please fix that and try again with a proper signature",
+    "docURL": "",
+    "traceID": ""
+  },
+  "GE004": {
+    "code": "401",
+    "status": 400,
+    "success": false,
+    "title": "jwt-verification-failed",
+    "detail": "The JWT token used in the request cannot be verfied. Please fix that and try again with a proper token.",
+    "docURL": "",
+    "traceID": ""
+  },
+  "GE005": {
+    "code": "403",
+    "status": 403,
+    "success": false,
+    "title": "request-not-authorised",
+    "detail": "This particular request does not seem to have the authorisation to perform the operation. Check the error response, and retry with a right X-Setu-Product-Insance-Id.",
+    "docURL": "",
+    "traceID": ""
+  },
+  "GE006": {
+    "code": "401",
+    "status": 400,
+    "success": false,
+    "title": "jwt-token-expired",
+    "detail": "The alloted time for the JWT token used in the request seems to have lapsed. Please retry with a new JWT token. - (Error Codes)",
+    "docURL": "",
+    "traceID": ""
+  },
+  "Default": {
+    "code": "500",
+    "status": 400,
+    "success": false,
+    "title": "Internal Server error",
+    "detail": "Internal Server error",
+    "docURL": "",
+    "traceID": ""
+  }
+}
